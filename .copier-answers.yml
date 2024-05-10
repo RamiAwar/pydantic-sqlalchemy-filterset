@@ -1,0 +1,11 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: 1.1.0
+_src_path: https://github.com/Kludex/python-template
+cli: false
+description: Pydantic SQLAlchemy filterset library to turn pydantic models into sqlalchemy
+    filters with advanced filtering support.
+email: rami@softgrade.org
+full_name: Rami Awar
+github: RamiAwar
+project_name: pydantic-sqlalchemy-filterset
+twitter: iamramiawar

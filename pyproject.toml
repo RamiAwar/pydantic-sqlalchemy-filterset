@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "pydantic-sqlalchemy-filterset"
+version = "0.7.0"
+description = "Pydantic SQLAlchemy filterset library to turn pydantic models into sqlalchemy filters with advanced filtering support."
+authors = ["Rami Awar <rami.awar.ra@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pydantic = "^2.6.4"
+SQLAlchemy = "^2.0.29"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 120
+target-version = ["py312"]
+
+[tool.isort]
+force_grid_wrap = 0
+include_trailing_comma = true
+line_length = 120
+multi_line_output = 3
+use_parentheses = true
