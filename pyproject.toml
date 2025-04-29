@@ -9,7 +9,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.8"
 pydantic = "^2.6.4"
-SQLAlchemy = "^2.0.29"
+SQLAlchemy = "^2.0.31"
 
 
 [tool.poetry.group.dev.dependencies]
